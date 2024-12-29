@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background: url('https://th.bing.com/th/id/R.b4f2fc27efb39739dc6cdf606c80589e?rik=6JmbF11njtwstQ&riu=http%3a%2f%2fclipart-library.com%2fimages%2fAcbrnRqoi.jpg&ehk=22QFcX6Rny9vgmKZ1M2nP8Ii%2faXu4WJkkEFOjd5QiFY%3d&risl=&pid=ImgRaw&r=0') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Header and Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 51, 102, 0.9);
+    padding: 10px 20px;
+}
+
+.navbar h1 {
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #ffcc00;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+}
+
+.hero h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: rgba(0, 51, 102, 0.9);
+    color: #ffffff;
+    padding
